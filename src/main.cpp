@@ -1,5 +1,4 @@
 #include <SFML/Graphics.hpp>
-<<<<<<< HEAD
 #include <thread>
 
 
@@ -63,13 +62,6 @@ int main()
 
 
 
-=======
-
-int main()
-{
-    auto window = sf::RenderWindow(sf::VideoMode({1920u, 1080u}), "CMake SFML Project");
-    window.setFramerateLimit(144);
->>>>>>> ede2751a1463307de194ab88fccbe0ea0e45d7c3
 
     while (window.isOpen())
     {
@@ -79,7 +71,6 @@ int main()
             {
                 window.close();
             }
-<<<<<<< HEAD
             else if (const auto* keyPressed = event->getIf<sf::Event::KeyPressed>())
             {
             if (keyPressed->scancode == sf::Keyboard::Scancode::Escape)
@@ -97,11 +88,3 @@ int main()
 }
 
 
-=======
-        }
-
-        window.clear();
-        window.display();
-    }
-}
->>>>>>> ede2751a1463307de194ab88fccbe0ea0e45d7c3
