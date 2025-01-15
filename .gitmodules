@@ -1,0 +1,6 @@
+[submodule "_deps/freetype-src"]
+	path = _deps/freetype-src
+	url = https://github.com/freetype/freetype.git
+[submodule "_deps/sfml-src"]
+    path = _deps/sfml-src
+    url = https://github.com/SFML/SFML.git
